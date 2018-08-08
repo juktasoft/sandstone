@@ -1,0 +1,413 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Georgia', sans-serif ;
+}
+
+
+/*header part css*/
+.header{
+    padding: 30px 0px 0px;
+    
+}
+   
+
+.header-address i{
+    float: left;
+    font-size: 48px;
+    color: #ebad00;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+.header-address p{
+    font-size: 18px;
+}
+.header-phone img{
+    float: left;
+  
+    color: #ebad00;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    
+}
+.header-address p{
+    font-size: 18px;
+}
+
+/*end header part css*/
+/*Section One*/
+/*
+.section-one{
+    background: red;
+}
+*/
+.navbar{
+    background-color: #710e18 !important;
+    
+    
+}
+
+.navcolor{
+    background-color: #710e18;
+}
+
+
+.nav-item{
+        font-size: 18px;
+    border-right: 1px solid white;
+    padding: 15px 30px;
+}
+.nav-item a{
+    color: white !important;
+   
+    
+}
+.dropdown-menu a{
+    color: black !important ;
+}
+.quate{
+    background: #ebad00;
+    font-size: 18px;
+    color: #710e18;
+    border: 0;
+   
+    
+}
+.nav_icon {
+    border: 0;
+}
+/*End Section One*/
+/*Section Two*/
+.section-two{
+    
+   margin-top: 30px;
+ 
+   
+   
+}
+
+.section-two-content{
+ margin-bottom:  30px !important;
+         position: relative;
+    min-height: 450px;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    
+    
+}
+ .Feature{
+        position: absolute;
+    top: 30px;
+    left: 20px;
+    background: #ebad00;
+    padding: 5px;
+    width: 90px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 16px;
+    color: white;
+    font-weight: 650;
+    
+}
+.author{
+    position: absolute;
+    bottom: 100px;
+    padding: 0px 25px;
+}
+.author p{
+    text-transform: uppercase;
+    float: left;
+    margin-right: 20px;
+}
+.author h3{
+    top: 70px;
+     position: absolute;
+    bottom: 10px;
+    max-width: 320px;
+    font-size: 18px;
+}
+.section-two-content::before{
+    content: '';
+    background: #0000008a;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+}
+/*Section Three*/
+.section-three{
+     margin-top: 50px;
+}
+.section-three-content{
+   
+    position: relative;
+    min-height: 250px;
+    
+     background-size: cover !important;
+    background-position: center  !important;
+    background-repeat: no-repeat !important;
+}
+.logo-1 img{
+
+    float: left;
+    margin-right: 10px;
+    
+}
+.logo-1{
+  
+    width: 100%;
+ margin-bottom: 37px;
+    
+}
+.logo-1 h1{
+    margin-left: 50px;
+   font-weight: 800;
+    color: #710e18;
+}
+.bottom-content{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight:bold;
+    color:#212126;
+    width: 240px;
+   
+    
+}
+/*End Section Two*/
+
+/*Section Three*/
+.section-three-content i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+}
+.section-three-content::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: #00000069;
+}
+
+
+
+/*End Section Three*/
+
+/*section four*/
+.section-four{
+    margin-top: 50px;
+}
+.first-part{
+    position: relative;
+  min-height: 200px !important;
+    width: 100%;
+ 
+     background-size: cover !important;
+    background-position: center  !important;
+    background-repeat: no-repeat !important;
+}
+.address{
+    padding-top: 25px;
+    color: black;
+}
+.first{
+    margin-bottom: 130px;
+}
+
+
+.second{
+    margin-bottom: 130px;
+}
+.address b{
+    position: absolute;
+     float: left;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    
+    
+}
+.address p{
+    margin-left: 100px;
+}
+.Titile h1{
+    position: absolute;
+    text-transform: uppercase;
+    color: black;
+    font-size: 24px;
+    
+    
+}
+.para{
+    position: absolute;
+    width: 290px !important;
+}
+.para p{
+    position: absolute;
+    margin-top:  34px;
+    color: black;
+}
+.icon-img img{
+    float: left;
+    
+    
+   
+}
+.icon-img{
+    margin-bottom: 10px;
+}
+.icon-img-1{
+    margin-bottom: 60px;
+}
+.icon-img h1{
+    
+        text-transform: uppercase;
+    font-weight: 700 !important;
+    font-size: 25px !important;
+    
+    margin-top: 3px;
+    color: #710e18 !important;
+   
+}
+.options a{
+    
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 3;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+    
+}
+.options ul li{
+    list-style: none;
+}
+.options a:hover{
+    color: #710e18;
+}
+
+
+.right-side-menu1{
+    margin-top: 80px;
+}
+.pera1 {
+    margin-top: 0px !important;
+    width: 300px;
+    height: 154px;
+    padding: 20px;
+    background: #f8f8f8;
+   
+}
+
+.icon-img-1 img{ 
+    margin-top: 30px;
+    position: relative;
+  min-height: 400px !important;
+    width: 300px;
+    margin-right: 20px;
+ 
+     background-size: cover !important;
+    background-position: center  !important;
+    background-repeat: no-repeat !important;
+    }
+.pera1 .pera1-option a{
+    color: #ebad00;
+    font-weight: bold;
+}
+.social {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+ 
+   
+  
+}
+.social p{
+      font-weight: bold !important;
+    font-size: 18px !important;
+}
+.social a  i{
+    
+  
+   border-radius: 50%;
+    background: black;
+    color: white;
+    width: 25px;
+    height: 24px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-right: 10px;
+    
+   
+    text-align: center;
+}
+.social a  i:hover{
+color:  #ebad00;
+}
+
+/*END section four*/
+/*Footer*/
+footer{
+    margin-top: 50px;
+   padding: 60px 0 15px;
+    background: #710e18;
+  
+    
+}
+.footer img{
+    
+    font-size: 48px;
+    color: #ebad00;
+    margin-right: 10px;
+    
+    margin-bottom: 25px;
+    width: 30%;
+    
+}
+.footer-data p{
+    color: #c1c1c1;
+    margin-left: 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+
+}
+.footer-data i{
+    margin-top: 15px;
+    position: absolute;
+    float: left;
+    color: #ebad00;
+}
+.com{
+    color: white !important;
+}
+.footer-list li{
+   
+    list-style: none;
+}
+.footer-list a{
+    color: white;
+    margin-left: 10px;
+}
+.footer-list{
+    padding-left: 0;
+    column-count: 2;
+}
+/*End Footer*/
+.alert p{
+    text-align: center;
+    color: white;
+}
+.alert{
+
+    background: #260104 !important;
+}
